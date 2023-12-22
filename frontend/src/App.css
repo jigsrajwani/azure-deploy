@@ -1,0 +1,39 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* Add background color for better readability */
+  /* padding: 10px; */
+  color: white;
+  /* border-radius: 5px; */
+  text-shadow: 5px 5px 5px #ffc107;
+  font-size: 80px;
+}
+
+.b-image {
+  filter: blur(3px);
+}
+.navbar-brand{
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .carousel-caption{
+    top: 40%;
+    font-size: 15px;
+  }
+  .explore{
+    visibility: hidden;
+  }
+  .navbar-brand{
+    margin-left: 1px;
+  }
+}
